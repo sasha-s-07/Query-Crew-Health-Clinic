@@ -1,0 +1,122 @@
+/*
+CONTENTS
+
+* 1.COLORS
+* 2.GENERAL
+* 3.3 COLUMNS
+* 4.APPOINTMENTS
+* 5.HELPDESK
+* 6.MEDIA QUERY
+
+*/
+
+/* 1.COLORS */
+/*
+Light white: #f6f5f5
+Dark blue: #413c69
+Blue: #4a47a3
+Blue grey: #709fb0
+Light blue: #a7c5eb
+ */
+
+/* 2.GENERAL */
+body {
+    color: #413c69;
+    font-size: 1.3rem;
+}
+h1 {
+    margin: 0;
+}
+.invitation-msg{
+  color: green;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+main {
+    background-color: rgba(112,159,176,.1);
+    overflow: hidden;
+}
+.detail-links:link,
+.detail-links:visited {
+    color: #413c69;
+}
+.detail-links:hover,
+.detail-links:active {
+    color: #a7c5eb;
+}
+/* 3.3 COLUMNS */
+#card_col-3 {
+    margin: 0;
+}
+.card_item {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#card_number,
+#card_patients,
+#card_doctors {
+    height: 150px;
+}
+#card_patients {
+    background-color: #a7c5eb;
+}
+#card_doctors {
+    background-color: #4a47a3;
+}
+#card_patients a,
+#card_doctors a {
+    width: 100%;
+    height: 100%;
+}
+#card_patients a:link,
+#card_patients a:visited {
+    color: #413c69;
+}
+#card_doctors a:link,
+#card_doctors a:visited {
+    color: #f6f5f5;
+}
+#card_patients a:hover,
+#card_patients a:active {
+    color: #f6f5f5;
+}
+#card_doctors a:hover,
+#card_doctors a:active {
+    color: #a7c5eb;
+}
+/* 4.APPOINTMENTS */
+.todays-calendar {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 300px;
+    overflow: scroll;
+}
+.calendar-monthly {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+/* 5.HELPDESK */
+.helpdesk_btn{
+    color: #413c69;
+}
+/* 6.MEDIA QUERY */
+@media only screen and (max-width: 424px) {
+    .calendar-monthly {
+        font-size: .8rem;
+    }
+    .fc .fc-toolbar-title {
+        font-size: 1rem;
+    }
+    .fc-today-button,
+    .fc-prev-button,
+    .fc-next-button {
+        padding: .2rem .5rem;
+        font-size: .8rem;
+    }
+}

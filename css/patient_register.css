@@ -1,0 +1,50 @@
+.contact-content-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    color: black;
+}
+.contact-content-wrapper h1{
+    margin: 1em 0 0.5em 0;
+
+    color: #276678;
+}
+
+.contact-content-wrapper h2{
+    text-transform: capitalize;
+    color: #276678;
+}
+#account{
+    text-decoration: underline; !important;
+    color:black;!important;
+}
+
+
+ul#contact-address li:first-child{
+    color: #1687a7;
+    text-transform: capitalize;
+}
+ul#contact-address li:last-child  {
+    color: #1687a7;
+}
+
+form#contact-form{
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+.msg{
+    color: #276678;
+    padding-bottom: 25px; !important;
+    font-size: 2em;
+}
+.errormsg{
+    color: red;
+}
+
+form#contact-form label{
+    text-transform: capitalize;
+}
+#hidden{
+    display:none;
+}
+
